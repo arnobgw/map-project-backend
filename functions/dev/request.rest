@@ -1,0 +1,12 @@
+//Masud Imran 
+// Sumana Akter
+@baseUrl = https://us-central1-map-backend-689b4.cloudfunctions.net/api
+
+### Getting the list of todos
+GET {{baseUrl}}/users
+
+###  Getting a todo of given id
+GET {{baseUrl}}/quotes/3MFIMfQxGVBexNOf0fHt
+
+### Update the status of a given todo (whether is completed or not)
+DELETE  {{baseUrl}}/users/1
